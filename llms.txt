@@ -1,21 +1,16 @@
 # Bukta Traslados
 
-> Private transfers and executive mobility in Buenos Aires, Argentina.
+> Private transfers and executive mobility in Buenos Aires, Argentina. Airport transfers, corporate travel, chauffeur service, long-distance journeys, and private tours.
 
-## Services
+## Main pages
 
-- Private transfers to and from Ezeiza, Aeroparque, and San Fernando airports.
-- Corporate mobility, hourly chauffeur service, long-distance journeys, and private tours.
+- [Homepage](https://buktatraslados.vercel.app/): Company overview and reservation entry point.
+- [Services](https://buktatraslados.vercel.app/#servicios): Airport, corporate, hourly, long-distance, tour, and special services.
+- [Fleet](https://buktatraslados.vercel.app/#flota): BAIC BJ30, the primary transfer vehicle.
+- [Coverage](https://buktatraslados.vercel.app/#cobertura): Buenos Aires, airports, Greater Buenos Aires, and destinations across Argentina.
+- [Contact](https://buktatraslados.vercel.app/#contacto): Contact channels and reservation information.
 
-## Fleet
+## Important notes
 
-- BAIC BJ30 is the primary vehicle for executive, airport, and long-distance transfers.
-
-## Coverage
-
-- Buenos Aires, CABA, Greater Buenos Aires, airports, and destinations across Argentina.
-
-## Reservations
-
-- Request a transfer through the website reservation form or the contact channels published on the site.
 - Primary language: Spanish. International assistance: English.
+- Reservations are requested through the website form or the contact channels published on the site.
