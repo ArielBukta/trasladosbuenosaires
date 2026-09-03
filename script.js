@@ -39,3 +39,5 @@ serviceTabs.forEach((tab) => {
     });
   });
 });
+
+const buktaFonts = document.getElementById('bukta-fonts'); if (buktaFonts) buktaFonts.rel = 'stylesheet';
