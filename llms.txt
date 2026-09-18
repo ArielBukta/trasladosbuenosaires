@@ -1,14 +1,14 @@
-# Traslados Buenos Aires
+# Translados Buenos Aires
 
-> Traslados Buenos Aires provides private airport transfers and executive mobility in Buenos Aires, Argentina. Airport transfers, corporate travel, chauffeur service, long-distance journeys, and private tours for residents and international visitors.
+> Translados Buenos Aires provides private airport transfers and executive mobility in Buenos Aires, Argentina. Airport transfers, corporate travel, chauffeur service, long-distance journeys, and private tours for residents and international visitors.
 
 ## Main sections
 
-- [Homepage](https://trasladosbuenosiares.com/): Company overview and reservation entry point.
-- [Services](https://trasladosbuenosiares.com/#servicios): Airport, corporate, hourly, long-distance, tour, and special services.
-- [Fleet](https://trasladosbuenosiares.com/#flota): Primary vehicle and service standards.
-- [Coverage](https://trasladosbuenosiares.com/#cobertura): Buenos Aires, airports, Greater Buenos Aires, and destinations across Argentina.
-- [Contact](https://trasladosbuenosiares.com/#contacto): Contact channels and reservation information.
+- [Homepage](https://transladosbuenosaires.com/): Company overview and reservation entry point.
+- [Services](https://transladosbuenosaires.com/#servicios): Airport, corporate, hourly, long-distance, tour, and special services.
+- [Fleet](https://transladosbuenosaires.com/#flota): Primary vehicle and service standards.
+- [Coverage](https://transladosbuenosaires.com/#cobertura): Buenos Aires, airports, Greater Buenos Aires, and destinations across Argentina.
+- [Contact](https://transladosbuenosaires.com/#contacto): Contact channels and reservation information.
 
 ## Important notes
 
