@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Canonical hostname: redirect www to the primary domain.
+RewriteCond %{HTTP_HOST} ^www\.transladosbuenosaires\.com$ [NC]
+RewriteRule ^ https://transladosbuenosaires.com%{REQUEST_URI} [R=301,L]
