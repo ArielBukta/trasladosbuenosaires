@@ -1,28 +1,112 @@
 {
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.transladosbuenosaires.com"
-        }
-      ],
-      "destination": "https://transladosbuenosaires.com/$1",
-      "permanent": true
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Content-Security-Policy", "value": "default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
-      ]
-    }
-  ]
+    "redirects":  [
+                      {
+                          "source":  "/(.*)",
+                          "has":  [
+                                      {
+                                          "type":  "host",
+                                          "value":  "www.trasladosbuenosaires.com"
+                                      }
+                                  ],
+                          "destination":  "https://trasladosbuenosaires.com/$1",
+                          "permanent":  true
+                      }
+                  ],
+    "headers":  [
+                    {
+                        "source":  "/(.*)",
+                        "headers":  [
+                                        {
+                                            "key":  "Content-Security-Policy",
+                                            "value":  "default-src \u0027self\u0027; base-uri \u0027self\u0027; object-src \u0027none\u0027; script-src \u0027self\u0027; style-src \u0027self\u0027; font-src \u0027self\u0027; img-src \u0027self\u0027 data:; connect-src \u0027self\u0027; media-src \u0027self\u0027; worker-src \u0027none\u0027; frame-ancestors \u0027none\u0027; form-action \u0027self\u0027; upgrade-insecure-requests"
+                                        },
+                                        {
+                                            "key":  "X-Content-Type-Options",
+                                            "value":  "nosniff"
+                                        },
+                                        {
+                                            "key":  "X-Frame-Options",
+                                            "value":  "DENY"
+                                        },
+                                        {
+                                            "key":  "Referrer-Policy",
+                                            "value":  "no-referrer"
+                                        },
+                                        {
+                                            "key":  "Permissions-Policy",
+                                            "value":  "accelerometer=(), autoplay=(), bluetooth=(), browsing-topics=(), camera=(), display-capture=(), encrypted-media=(), geolocation=(), gyroscope=(), microphone=(), payment=(), picture-in-picture=(), usb=()"
+                                        },
+                                        {
+                                            "key":  "Strict-Transport-Security",
+                                            "value":  "max-age=63072000; includeSubDomains; preload"
+                                        },
+                                        {
+                                            "key":  "Cross-Origin-Opener-Policy",
+                                            "value":  "same-origin"
+                                        },
+                                        {
+                                            "key":  "Cross-Origin-Resource-Policy",
+                                            "value":  "same-origin"
+                                        },
+                                        {
+                                            "key":  "X-Permitted-Cross-Domain-Policies",
+                                            "value":  "none"
+                                        }
+                                    ]
+                    },
+                    {
+                        "source":  "/assets/(.*)",
+                        "headers":  [
+                                        {
+                                            "key":  "Cache-Control",
+                                            "value":  "public, max-age=31536000, immutable"
+                                        }
+                                    ]
+                    },
+                    {
+                        "source":  "/styles.css",
+                        "headers":  [
+                                        {
+                                            "key":  "Cache-Control",
+                                            "value":  "public, max-age=86400, must-revalidate"
+                                        }
+                                    ]
+                    },
+                    {
+                        "source":  "/script.js",
+                        "headers":  [
+                                        {
+                                            "key":  "Cache-Control",
+                                            "value":  "public, max-age=86400, must-revalidate"
+                                        }
+                                    ]
+                    },
+                    {
+                        "source":  "/international.css",
+                        "headers":  [
+                                        {
+                                            "key":  "Cache-Control",
+                                            "value":  "public, max-age=86400, must-revalidate"
+                                        }
+                                    ]
+                    },
+                    {
+                        "source":  "/privacy.css",
+                        "headers":  [
+                                        {
+                                            "key":  "Cache-Control",
+                                            "value":  "public, max-age=86400, must-revalidate"
+                                        }
+                                    ]
+                    },
+                    {
+                        "source":  "/privacy(.*)",
+                        "headers":  [
+                                        {
+                                            "key":  "Cache-Control",
+                                            "value":  "private, no-store, max-age=0"
+                                        }
+                                    ]
+                    }
+                ]
 }

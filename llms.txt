@@ -1,17 +1,20 @@
-# Translados Buenos Aires
+# Traslados Buenos Aires
 
-> Translados Buenos Aires (also searched as Traslados Buenos Aires) provides private airport transfers and executive mobility from Ezeiza, Aeroparque and San Fernando in Buenos Aires, Argentina. Local transportation, corporate travel, chauffeur service, long-distance journeys, and private tours for residents and international visitors from the United States, Europe, Brazil and other countries.
+> Traslados Buenos Aires (also searched as Traslados Buenos Aires) provides private airport transfers and executive mobility from Ezeiza, Aeroparque and San Fernando in Buenos Aires, Argentina. Local transportation, corporate travel, chauffeur service, long-distance journeys, and private tours for residents and international visitors from the United States, Europe, Brazil and other countries.
 
 ## Main sections
 
-- [Homepage](https://transladosbuenosaires.com/): Company overview and reservation entry point.
-- [Services](https://transladosbuenosaires.com/#servicios): Airport, corporate, hourly, long-distance, tour, and special services.
-- [Fleet](https://transladosbuenosaires.com/#flota): Primary vehicle and service standards.
-- [Coverage](https://transladosbuenosaires.com/#cobertura): Buenos Aires, airports, Greater Buenos Aires, and destinations across Argentina.
-- [Contact](https://transladosbuenosaires.com/#contacto): Contact channels and reservation information.
+- [Homepage](https://trasladosbuenosaires.com/): Company overview and reservation entry point.
+- [Services](https://trasladosbuenosaires.com/#servicios): Airport, corporate, hourly, long-distance, tour, and special services.
+- [Fleet](https://trasladosbuenosaires.com/#flota): Primary vehicle and service standards.
+- [Coverage](https://trasladosbuenosaires.com/#cobertura): Buenos Aires, airports, Greater Buenos Aires, and destinations across Argentina.
+- [Contact](https://trasladosbuenosaires.com/#contacto): Contact channels and reservation information.
+- [United States](https://trasladosbuenosaires.com/us/): English-language airport transfer information for US travelers.
+- [China](https://trasladosbuenosaires.com/china/): 简体中文 information for travelers visiting Buenos Aires.
+- [Europe](https://trasladosbuenosaires.com/eu/): English-language information for European travelers.
 
 ## Important notes
 
-- Primary language: Spanish. International assistance is coordinated before the trip.
+- Primary language: Spanish. Dedicated pages are also available in English for the United States and Europe, and Simplified Chinese for China.
 - Service base: Buenos Aires, Argentina.
 - Reservations are requested through the website form or WhatsApp.
