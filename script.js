@@ -114,6 +114,29 @@ Object.assign(englishCopy, {
 
 englishCopy["VISITANTES INTERNACIONALES"] = "INTERNATIONAL VISITORS";
 
+const chineseCopy = {
+  "Soluciones":"服务", "Nuestra flota":"我们的车辆", "Destinos":"目的地", "Empresas":"企业客户", "Contacto":"联系",
+  "Atención todos los días":"每日服务", "Cotizar traslado":"获取报价", "TRASLADOS PRIVADOS · BUENOS AIRES":"私人接送 · 布宜诺斯艾利斯",
+  "Aeropuertos,":"机场接送，", "reuniones y rutas.":"商务出行与定制路线。", "Sin improvisar.":"安心出发。",
+  "Ezeiza, Aeroparque y San Fernando. Transfers y transporte privado desde el aeropuerto hacia CABA, Gran Buenos Aires y todo el país, con tarifa informada y seguimiento del vuelo.":"埃塞萨、Aeroparque 和圣费尔南多机场。提供前往布宜诺斯艾利斯市区、大布宜诺斯艾利斯及阿根廷各地的私人接送，提前确认价格并跟踪航班。",
+  "Puerta a puerta":"点对点服务", "Hasta 4 pasajeros y 3 valijas":"最多 4 位乘客和 3 件行李", "Seguimiento de vuelo y espera coordinada":"航班跟踪与协调等候", "VISITANTES INTERNACIONALES":"国际旅客",
+  "Contanos el viaje":"告诉我们您的行程", "Respondemos en minutos, todos los días. Sin compromiso.":"每天快速回复，无需承诺。", "Reserva confirmada con anticipo mínimo del 20%.":"支付至少 20% 预付款后确认预订。", "Ver términos":"查看预订条款",
+  "Tipo de viaje":"行程类型", "Aeropuerto":"机场", "Punto a punto":"点对点", "Auto por hora":"按小时用车", "Larga distancia":"长途", "Origen":"出发地", "Destino":"目的地", "Fecha":"日期", "Pasajeros y equipaje":"乘客和行李", "Cotizar":"获取报价",
+  "UNA FORMA SIMPLE DE MOVERSE":"轻松出行", "Un viaje bien resuelto":"每一次顺畅出行", "empieza antes de salir.":"从出发前的协调开始。", "Ya sea una llegada a Ezeiza, una agenda corporativa o un viaje al interior, Traslados Buenos Aires coordina el recorrido con puntualidad, seguridad y comunicación clara.":"无论是抵达埃塞萨、商务日程还是阿根廷国内行程，Traslados Buenos Aires 都以准时、安全和清晰沟通协调您的路线。", "Reserva y coordinación":"预订与协调", "Seguimiento y confirmación":"跟踪与确认", "Traslado puerta a puerta":"点对点接送",
+  "CÓMO TRABAJAMOS":"服务流程", "Lo que está claro":"上车前", "antes de subir.":"一切清楚。", "Precio informado.":"价格提前确认。", "Te pasamos el valor del traslado antes de confirmar la reserva.":"确认预订前，我们会告知接送价格。", "Vuelo y encuentro coordinados.":"航班与会面协调。", "Confirmamos el punto de encuentro y seguimos la información de tu vuelo.":"我们确认会面地点并跟踪您的航班信息。", "Recepción en arribos.":"抵达接待。", "Coordinamos la recepción y el acompañamiento hasta el vehículo.":"我们协调接待并陪同您到车辆。", "Pago acordado.":"付款方式确认。", "Definimos la modalidad de pago junto con tu cotización.":"我们在报价时确认付款方式。",
+  "SERVICIOS":"服务", "Elegí el traslado.":"选择您的接送服务。", "Nos ocupamos del resto.":"其余交给我们。", "Aeropuertos":"机场接送", "Corporativo":"商务", "Por hora":"按小时", "Tours privados":"私人旅行", "Especiales":"特别服务", "Traslados a aeropuertos.":"机场接送服务。", "Coordinamos punto de encuentro, monitoreo de vuelo, recepción con cartel y asistencia con equipaje.":"我们协调会面地点、航班监控、举牌接待和行李协助。", "Llegadas, partidas y conexiones":"抵达、出发与转机",
+  "AGENDA CORPORATIVA":"商务日程", "Movilidad para empresas.":"企业用车服务。", "Traslados para ejecutivos, equipos y eventos con recorridos, horarios y puntos de espera definidos de antemano.":"为高管、团队和活动提供提前确定路线、时间和等候点的接送服务。", "Reuniones, equipos y eventos":"会议、团队和活动",
+  "AUTO A DISPOSICIÓN":"专车待命", "Tiempo a tu favor.":"让时间为您服务。", "Vehículo con chofer para trámites, visitas y recorridos abiertos. La unidad queda disponible durante el tiempo coordinado.":"带司机车辆适用于预约、拜访和灵活路线；车辆在约定时间内为您待命。", "Mínimo de 3 horas · Kilometraje libre dentro de CABA y GBA":"最少 3 小时 · 市区与大布宜诺斯艾利斯内不限里程",
+  "INTERURBANOS":"城际出行", "Media y larga distancia.":"中长途出行。", "Mar del Plata, Rosario, Córdoba, Pinamar y cualquier destino del país. Cotizamos según recorrido, horarios, paradas y equipaje.":"马德普拉塔、罗萨里奥、科尔多瓦、皮纳马及阿根廷任何目的地；根据路线、时间、停靠点和行李报价。", "Desde CABA y Gran Buenos Aires":"从布宜诺斯艾利斯市区和大布宜诺斯艾利斯出发",
+  "BUENOS AIRES Y ALREDEDORES":"布宜诺斯艾利斯及周边", "Recorridos a tu ritmo.":"按您的节奏游览。", "Armamos un itinerario privado según intereses, tiempos y los lugares que quieras conocer.":"根据您的兴趣、时间和想去的地点安排私人行程。", "Ciudad, cultura, compras y paseos":"城市、文化、购物与观光",
+  "ENVÍOS PUERTA A PUERTA":"门到门配送", "Encomiendas y documentación.":"包裹与文件。", "Mensajería privada para documentos, carpetas o paquetes pequeños. Retiro coordinado y comprobante de entrega.":"为文件、资料和小型包裹提供私人配送，协调取件并提供送达证明。", "Consultas según requerimiento":"可按需咨询",
+  "FLOTA PRINCIPAL":"主要车辆", "Espacio para llegar cómodo.":"舒适抵达的空间。", "Una unidad versátil para aeropuertos, traslados ejecutivos y recorridos de larga distancia. Confort, presencia y seguridad en cada viaje.":"适用于机场、商务接送和长途路线的多功能车辆；每次行程兼顾舒适、安全与品质。", "Hasta 4 pasajeros":"最多 4 位乘客", "3 valijas grandes + equipaje de mano":"3 件大行李箱和随身行李", "Aire acondicionado, agua y cargadores":"空调、饮用水和充电设备", "Chofer con licencia profesional y seguro vigente":"专业执照司机与有效保险",
+  "COBERTURA":"服务范围", "Donde tu agenda":"您的日程", "te necesita.":"需要到达的地方。", "Operamos traslados locales en Buenos Aires y coordinamos transporte desde el aeropuerto, viajes de media y larga distancia para residentes y visitantes internacionales.":"我们提供布宜诺斯艾利斯本地接送，并协调机场接送及为居民和国际旅客提供中长途出行。", "CABA, Zona Norte, Oeste y Sur, La Plata, Tigre, Pilar, Nordelta y Costa Atlántica.":"布宜诺斯艾利斯市区、北区、西区、南区、拉普拉塔、蒂格雷、皮拉尔、诺德尔塔和大西洋海岸。", "Ciudad y Gran":"市区与大",
+  "CONFIAN EN TRASLADOS BUENOS AIRES":"信赖 TRASLADOS BUENOS AIRES", "Empresas que se mueven":"与我们同行的", "con nosotros.":"企业客户。", "Una red que se mueve con precisión.":"精准运转的服务网络。",
+  "TRASLADOS PARA HUÉSPEDES":"酒店宾客接送", "Del aeropuerto":"从机场", "al hotel, bien coordinado.":"到酒店，妥善协调。", "Trabajamos con hoteles de referencia en Buenos Aires para coordinar recepción en aeropuerto, arribos y traslados privados.":"我们与布宜诺斯艾利斯知名酒店合作，协调机场接待、抵达和私人接送。",
+  "BUENOS AIRES A TU RITMO":"按您的节奏游览布宜诺斯艾利斯", "La ciudad también":"这座城市", "es parte del viaje.":"也是旅程的一部分。", "Recorridos privados diseñados alrededor de tus intereses, tus tiempos y tus paradas.":"根据您的兴趣、时间和停靠点设计私人行程。", "Clásicos porteños":"布宜诺斯艾利斯经典", "Obelisco, Plaza de Mayo, Recoleta y Puerto Madero":"方尖碑、五月广场、雷科莱塔和马德罗港", "Sur histórico":"历史南区", "San Telmo, Caminito y La Boca":"圣特尔莫、卡米尼托和博卡区", "Buenos Aires a tu ritmo":"按您的节奏游览", "Itinerario privado según tus intereses":"根据兴趣定制私人路线", "A MEDIDA":"定制",
+  "COORDINEMOS TU PRÓXIMO VIAJE":"让我们协调您的下一次行程", "Tu traslado empieza":"您的接送服务", "con una conversación.":"从一次沟通开始。", "Hablar por WhatsApp":"通过 WhatsApp 联系", "Movilidad ejecutiva para personas, empresas e instituciones.":"为个人、企业和机构提供行政出行服务。", "NAVEGACIÓN":"导航", "Servicios":"服务", "Flota":"车辆", "CONTACTO":"联系", "Buenos Aires, Argentina":"阿根廷布宜诺斯艾利斯"
+};
 const translatableAttributes = {
   "Abrir men\u00fa": "Open menu",
   "Selector de idioma": "Language selector",
@@ -143,7 +166,7 @@ function translateTextNodes(language) {
     const lead = original.match(/^\s*/)[0];
     const trail = original.match(/\s*$/)[0];
     const value = original.trim();
-    node.nodeValue = lead + (language === 'en' ? (englishCopy[value] || value) : value) + trail;
+    node.nodeValue = lead + (language === 'en' ? (englishCopy[value] || value) : language === 'zh' ? (chineseCopy[value] || value) : value) + trail;
   });
 }
 
@@ -164,11 +187,13 @@ function translateAttributes(language) {
 }
 
 function setLanguage(language) {
-  const active = language === 'en' ? 'en' : 'es';
+  const active = language === 'en' || language === 'zh' ? language : 'es';
   translateTextNodes(active);
   translateAttributes(active);
   document.documentElement.lang = active;
-  document.title = active === 'en' ? 'Buenos Aires Transfers | Airport and private chauffeur' : 'Traslados Buenos Aires | Ezeiza, Aeroparque y chofer privado';
+  if (!document.documentElement.dataset.defaultLanguage) {
+    document.title = active === 'en' ? 'Buenos Aires Transfers | Airport and private chauffeur' : 'Traslados Buenos Aires | Ezeiza, Aeroparque y chofer privado';
+  }
   languageButtons.forEach((button) => {
     const selected = button.dataset.language === active;
     button.classList.toggle('active', selected);
@@ -177,7 +202,7 @@ function setLanguage(language) {
 }
 
 languageButtons.forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.language)));
-setLanguage('es');
+setLanguage(document.documentElement.dataset.defaultLanguage || 'es');
 
 
 // Quote form: carry the trip details straight into WhatsApp.
